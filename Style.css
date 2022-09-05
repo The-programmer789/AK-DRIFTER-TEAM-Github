@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* ***************************navbar*************************** */
+nav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    float: left;
+}
+/* *************************image principale*************************** */
+#imagePrincipale {
+     padding-top: 60px;
+     background: url(IMG/drift-insanity-5k-s5-1440x900.jpg) no-repeat fixed 50% 50%;
+     background: cover;
+     height: 900px;
+}
+h1 {
+    font-family: 'Dancing script', cursive;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px  black;
+}
+#premierTrait {
+    height: 1px;
+    width: 30%;
+    margin: -3px auto;
+    background-color: antiquewhite;
+    box-shadow: 1px 2px 1px black;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 2px 1px black;
+}
+/* ***********************Presentation*************************** */
+#presentation {
+    background-color: white;
+    padding: 10px 0px 100px 0px;
+}
+#textIntro {
+    padding: 0px 20%;
+}
+#prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 30px 10%;
+}
+.imagesPrestations h4 {
+    font-family: 'Dancing script', cursive;
+    text-align: center;
+    font-size: 1.7em;
+    margin: 15px;
+    font-weight: 200;
+}
+.imagesPrestations img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.7);
+}
+.imagesPrestations img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.7spx ease-in-out;
+}
+/* ********************* Tourisme ******************* */
+#Tourisme {
+    height: 1400px;
+    background-color: white;
+    padding: 1px 2%;
+}
+#Tourisme h2 {
+    padding-top: 60px;
+}
+#driftpic4k {
+    background: url(IMG/drifting-car-4k-kv-1440x900.jpg)
+}
+#driftpic5k {
+    background: url(IMG/drift-insanity-5k-s5-1440x900.jpg)
+}
+#AKLogo {
+    background: url(IMG/AK.png)
+}
+#Tourisme li {
+    margin: 65px 100px 0 100px;
+    height: 200px;
+    width: 60%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px black;
+}
+#Tourisme p {
+    height: 45px;
+    width: 235px;
+    background-color: rgb(112, 112, 112);
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgb(53, 53, 53);
+}
+#Tourisme #driftpic5k {
+    float: right;
+}
+#driftpic5k p {
+    float: left;
+    margin-left: -180px;
+    box-shadow: -4px 4px 0 1px rgb(53, 53, 53);
+}
+/* ******************** Footer ********************* */
+footer {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent pro', sans-serif;
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: antiquewhite;
+}
+button:hover {
+    background-color: gray;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxièmeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: white;
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: white;
+
+}
+#Icons {
+    width: 50%;
+    text-align: right;
+}
+#Icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: white;
+}
+#Icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
